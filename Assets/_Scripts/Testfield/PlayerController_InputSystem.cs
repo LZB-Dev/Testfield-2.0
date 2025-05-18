@@ -127,13 +127,13 @@ public class PlayerController_InputSystem : MonoBehaviour //bap
         switch (isBoosting)
         {
             case false:
-                if (rb.velocity.magnitude <= speedLimit)
+                if (rb.linearVelocity.magnitude <= speedLimit)
                 {
                     rb.AddForce(move * playerSpeed * Time.deltaTime);
                 }
                 break;
             case true:
-                if (rb.velocity.magnitude <= speedLimit * limitX)
+                if (rb.linearVelocity.magnitude <= speedLimit * limitX)
                 {
                     rb.AddForce(move * playerSpeed * Time.deltaTime);
                 }

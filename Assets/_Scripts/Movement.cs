@@ -22,7 +22,7 @@ public class Movement : MonoBehaviour //bap
 
     void FixedUpdate()
     {
-        if (rb.velocity.magnitude >= maxSpeed / 2.237f) return;
+        if (rb.linearVelocity.magnitude >= maxSpeed / 2.237f) return;
         if (Input.GetKeyDown(KeyCode.W)) rb.AddForce(moveSpeed * rb.transform.forward);
         if (Input.GetKeyDown(KeyCode.D)) rb.AddForce(moveSpeed * rb.transform.right);
         if (Input.GetKeyDown(KeyCode.S)) rb.AddForce(moveSpeed * -rb.transform.forward);

@@ -21,7 +21,7 @@ public class Player_Controller : MonoBehaviour //bap
 
     void FixedUpdate()
     {
-        if (rb.velocity.magnitude >= maxSpeed / 2.237) return;
+        if (rb.linearVelocity.magnitude >= maxSpeed / 2.237) return;
         if (Input.GetKey(KeyCode.W)) rb.AddForce(moveSpeed * rb.transform.forward);
         if (Input.GetKey(KeyCode.S)) rb.AddForce(moveSpeed * -rb.transform.forward);
         if (Input.GetKey(KeyCode.A)) rb.AddForce(moveSpeed * -rb.transform.right);

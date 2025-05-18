@@ -17,7 +17,7 @@ public class HUD : MonoBehaviour //bap
 
     private void SpeedUpdate(TextMeshProUGUI speedometer, Rigidbody playerRB)
     {
-        speedometer.SetText($" {Mathf.RoundToInt(playerRB.velocity.magnitude * 2.237f)} km/h");
+        speedometer.SetText($" {Mathf.RoundToInt(playerRB.linearVelocity.magnitude * 2.237f)} km/h");
     }
 
     private void UIColorChange(TextMeshProUGUI element, Color color)
