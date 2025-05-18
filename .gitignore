@@ -1,0 +1,50 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Aa]uto[Bb]uild/
+Assets/AssetStoreTools*
+
+Library*
+Temp*
+Obj*
+Build*
+Builds*
+Logs*
+UserSettings*
+AutoBuild*
+
+# Visual Studio cache directory
+.vs/
+.vscode/
+
+[Ee]xported[Oo]bj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.swp
+*.VC.*
+.DS_Store
+*~
+
+# Unity3D generated meta files
+*.pidb.meta
+
+# Unity3D Generated File On Crash Reports
+*sysinfo.txt
+
+# Builds
+*.apk
+*.unitypackage
