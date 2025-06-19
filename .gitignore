@@ -8,6 +8,7 @@
 /[Aa]uto[Bb]uild/
 Assets/AssetStoreTools*
 
+#Just to be sure
 Library*
 Temp*
 Obj*
